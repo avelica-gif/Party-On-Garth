@@ -1,7 +1,3 @@
-body {
-    background-color: rgb(22, 22, 22);
-}
-
 h1 {
 color: rgb(240, 9, 9);
 text-align: center;
@@ -9,7 +5,7 @@ size: 35;
 }
 
 p {
-    color: rgb(162, 216, 216);
+    color: rgb(237, 241, 241);
     text-align: center;
     size: 35;
 }
@@ -23,10 +19,73 @@ div {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50;
-    height: 50;
+    width: 50.5;
+    height: 50.5;
 }
 
 
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #f14a58,
+        0 0 82px #f14a58,
+        0 0 92px #f14a58,
+        0 0 102px #f14a58,
+        0 0 151px #f14a58;
+  }
+    
+  body {
+    font-size: 18px;
+    font-family: 'Limelight', cursive;
+    background-color: #010a01;
+    background-image: url(https://wallpaperaccess.com/full/1561985.jpg);
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+    
+  h1 {
+      font-size: 5.2rem;
+      animation: pulsate 0.11s ease-in-out infinite alternate;     
+  }
+    
+  h2 {
+      font-size: 1.8rem;
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f14a58,
+        0 0 80px #f14a58,
+        0 0 90px #f14a58,
+        0 0 100px #f14a58,
+        0 0 150px #f14a58;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f14a58,
+      0 0 73px #f14a58,
+      0 0 80px #f14a58,
+      0 0 94px #f14a58,
+      0 0 140px #f14a58;
+  
+  }
 
 
