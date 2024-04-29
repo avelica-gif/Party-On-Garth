@@ -60,7 +60,7 @@ div {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #800000;
+  background-color: #f7eaea;
   overflow: hidden;
 }
 
@@ -83,7 +83,7 @@ div {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: hwb(32 2% 33%);
   color: white;
 }
 
@@ -91,5 +91,3 @@ div {
 .topnav .icon {
   display: none;
 }
- 
-
