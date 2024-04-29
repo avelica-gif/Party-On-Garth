@@ -58,34 +58,5 @@ div {
       font-size: 1.8rem;
   }
   
-  @keyframes pulsate {
-      
-    100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #f14a58,
-        0 0 80px #f14a58,
-        0 0 90px #f14a58,
-        0 0 100px #f14a58,
-        0 0 150px #f14a58;
-    
-    }
-    
-    0% {
-  
-      text-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
-      0 0 18px #fff,
-      0 0 38px #f14a58,
-      0 0 73px #f14a58,
-      0 0 80px #f14a58,
-      0 0 94px #f14a58,
-      0 0 140px #f14a58;
-  
-  }
-
+ 
 
