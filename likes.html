@@ -10,36 +10,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">>
-
-
- <!-- link JS file for likes -->
- <link rel="stylesheet" href="style.css">
-
-<div class="topnav" id="myTopnav">
-  <a href="index.html">Home</a>
-  <a href="likes.html">Garth's Likes</a>
- 
-  
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://partyongarthhammonds.com/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<body>
+ <!-- link JS file for likes -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Navbar pages-->
+  <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="likes.html">Garth's Likes</a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
 
-    <div id="Garth Likes" class="tabcontent">
-  <h3>What does Garth Like?</h3>
-  <p>Del Taco</p>
-  <p>Del Inferno</p>
-  <p>Gundam</p>
-  <p>Lord of the Rings</p>
-  <p>Gin and Tonics</p>
-  <p>IPA's</p>
-  <p>Beer / Crita Hops Beer</p>
-  <p>Formula 1</p>
-  <p>Video Games</p>
-  <p>Board Games</p>
+  <div id="Garth Likes" class="tabcontent">
+    <h3>What does Garth Like?</h3>
+    <p>Del Taco</p>
+    <p>Del Inferno</p>
+    <p>Gundam</p>
+    <p>Lord of the Rings</p>
+    <p>Gin and Tonics</p>
+    <p>IPA's</p>
+    <p>Beer / Crita Hops Beer</p>
+    <p>Formula 1</p>
+    <p>Video Games</p>
+    <p>Board Games</p>
 </div>
+
+<script>
+  function toggleMenu() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+</script> 
+</body>
